@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Meet Maria Butean-Salajean and discover the story behind Super Human Engineer." />
   <title>About Me | Super Human Engineer</title>
+  <script src="analytics.js" defer></script>
   <style>
     :root{--ink:#f5f0e8;--muted:#b7b0a5;--bg:#0d0d0c;--panel:#151412;--line:#35322e;--gold:#d6ae68}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.72}.container{max-width:1040px;margin:0 auto;padding:32px 24px 88px}nav{display:flex;align-items:flex-start;justify-content:space-between;gap:28px;margin-bottom:104px}.brand-block{display:flex;flex-direction:column;gap:5px;flex:0 0 auto}.brand{color:var(--ink);text-decoration:none;font-weight:700;letter-spacing:.12em;font-size:.83rem}.tagline{color:var(--muted);font-size:.76rem;letter-spacing:.025em}.nav-links{display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap}.button{display:inline-block;padding:13px 19px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font-size:.82rem;letter-spacing:.04em;transition:.2s;white-space:nowrap}.button:hover,.button:focus-visible{background:var(--ink);color:#111}.button.gold{border-color:var(--gold);background:var(--gold);color:#16120d}.button.gold:hover,.button.gold:focus-visible{background:#efcc8c;border-color:#efcc8c}.eyebrow{color:var(--gold);letter-spacing:.18em;text-transform:uppercase;font-size:.75rem;font-weight:700}.hero{max-width:890px;padding-bottom:80px;border-bottom:1px solid var(--line)}h1{font-family:Georgia,serif;font-size:clamp(3.2rem,7.2vw,6.2rem);line-height:.98;letter-spacing:-.05em;margin:18px 0 34px}.intro{max-width:710px;color:var(--muted);font-size:clamp(1.08rem,2vw,1.3rem)}.intro p{margin:0 0 22px}.founder-portrait{max-width:760px;margin:64px auto 0}.founder-portrait img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 42%;border:1px solid var(--line)}.founder-portrait figcaption{margin-top:12px;color:var(--muted);font-size:.88rem;letter-spacing:.025em}.story{max-width:760px;margin:0 auto;padding:72px 0 24px}.chapter{display:grid;grid-template-columns:180px 1fr;gap:54px;padding:0 0 64px}.chapter h2{font-family:Georgia,serif;font-size:1.75rem;line-height:1.2;margin:4px 0 0;color:var(--gold);font-weight:400}.chapter-copy p{font-size:1.08rem;color:var(--muted);margin:0 0 22px}.chapter-copy p:last-child{margin-bottom:0}.chapter-copy strong{color:var(--ink);font-weight:600}.closing{margin-top:16px;padding:52px;background:var(--panel);border:1px solid var(--line)}.closing h2{font-family:Georgia,serif;font-size:clamp(2rem,4vw,3rem);line-height:1.1;margin:0 0 22px}.closing p{font-size:1.08rem;color:var(--muted);max-width:620px;margin:0}.closing .button{margin-top:30px}.footer{display:flex;justify-content:space-between;gap:24px;align-items:center;margin-top:72px;color:var(--muted);font-size:.82rem}.footer a{color:var(--muted)}
@@ -16,7 +17,7 @@
   <div class="container">
     <nav>
       <div class="brand-block"><a class="brand" href="index.html">SUPER HUMAN ENGINEER</a><span class="tagline">Design your life with intention. Lead with agency.</span></div>
-      <div class="nav-links"><a class="button gold" href="products.html">Explore the System</a><a class="button" href="work-with-me.html">Work With Me</a><a class="button" href="about.html" aria-current="page">About Me</a></div>
+      <div class="nav-links"><a class="button gold" href="products.html" data-analytics-event="cta_about_nav_explore_system" data-analytics-location="about_nav">Explore the System</a><a class="button" href="work-with-me.html" data-analytics-event="cta_about_nav_work_with_me" data-analytics-location="about_nav">Work With Me</a><a class="button" href="about.html" aria-current="page">About Me</a></div>
     </nav>
     <main>
       <section class="hero">
@@ -68,11 +69,11 @@
           <p>There is no shortage of information. The challenge is knowing what applies to you, what does not, and how to turn what you learn into lasting change.</p>
           <p>I spent years reading, documenting, experimenting, and refining the process behind Super Human Engineer. This system brings that work together so you do not have to begin with a blank page or test every available method yourself.</p>
           <p>You still do the meaningful work of designing your life. You simply start with a map.</p>
-          <a class="button gold" href="products.html">Explore the System</a>
+          <a class="button gold" href="products.html" data-analytics-event="cta_about_explore_system" data-analytics-location="about_closing">Explore the System</a>
         </section>
       </div>
     </main>
-    <footer class="footer"><span>© Super Human Engineer</span><a href="refund-policy.html">Digital Product Refund Policy</a></footer>
+    <footer class="footer"><span>© Super Human Engineer</span><span><a href="refund-policy.html">Digital Product Refund Policy</a> · <a href="privacy-policy.html">Privacy & Analytics</a></span></footer>
   </div>
 </body>
 </html>
