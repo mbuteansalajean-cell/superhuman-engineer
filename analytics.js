@@ -57,9 +57,9 @@
     var productKey = params.get("product");
     var sessionId = params.get("session_id");
     var products = {
-      buddha: { id: "level_1_buddha", name: "Level 1: Buddha", value: 24.99 },
-      dharma: { id: "level_2_dharma", name: "Level 2: Dharma", value: 24.99 },
-      sangha: { id: "level_3_sangha", name: "Level 3: Sangha", value: 24.99 },
+      buddha: { id: "level_1_buddha", name: "Level 1: Decode & Design", value: 24.99 },
+      dharma: { id: "level_2_dharma", name: "Level 2: Rewire & Build", value: 24.99 },
+      sangha: { id: "level_3_sangha", name: "Level 3: Transcend & Become", value: 24.99 },
       bundle: { id: "complete_bundle", name: "Complete Super Human Engineer Bundle", value: 59.99 }
     };
     var product = products[productKey];
